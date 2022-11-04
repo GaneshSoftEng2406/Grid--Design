@@ -1,0 +1,52 @@
+
+.filterSection {
+    margin: 16px 0;
+}
+
+.filterIconWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filterIconWrapper > p {
+    font-size: 0.85em;
+    font-weight: 600;
+    margin-left: 0.5em;
+}
+
+.filterIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.filterIcon > img {
+    height: 100%;
+    width: 100%;
+}
+
+.capsulesWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filterCapsule {
+    border: 1px solid #0084ff;
+    border-radius: 15px;
+    color: #0084ff;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 5px;
+    padding: 6px 14px;
+    width: auto;
+}
+
+.activeCapsule {
+   background: linear-gradient(269deg, #0048ff, #0096ff);
+   color: #fff;
+}
+.filterCapsule:hover{
+    color: #fff;
+    background-color: #0084ff;
+  }
+
+

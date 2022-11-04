@@ -1,0 +1,18 @@
+
+.postsContainer {
+    padding: 8% 16% 2%;
+    min-height: 100vh;
+}
+
+.postsContainer > h3 {
+    margin: 0; 
+    /* margin-left: 2%; */
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -0.6px;
+}
+
